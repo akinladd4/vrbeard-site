@@ -1,127 +1,55 @@
-
-body {
-  background-color: #000;
-  color: #fff;
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
-header {
+.collection-page {
+  padding: 40px 20px;
   background-color: #111;
-  padding: 20px;
+  color: #f5f5f5;
   text-align: center;
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: #fff;
 }
 
-.product-page {
+.collection-page h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #FFA500;
+}
+
+.product-grid {
   display: flex;
   flex-wrap: wrap;
-  padding: 40px 20px;
+  gap: 20px;
   justify-content: center;
-  gap: 40px;
 }
 
-.product-images {
-  max-width: 400px;
-  text-align: center;
+.item {
+  background: #1a1a1a;
+  padding: 20px;
+  border-radius: 8px;
+  width: 220px;
 }
 
-.product-images .main-image {
+.item img {
   width: 100%;
-  max-width: 350px;
-  border: 1px solid #333;
-  border-radius: 10px;
-}
-
-.thumbnail-row {
-  margin-top: 20px;
-  display: flex;
-  gap: 10px;
-  justify-content: center;
-}
-
-.thumbnail-row img {
-  width: 80px;
-  border: 1px solid #555;
   border-radius: 6px;
-  background-color: #fff;
+  background: #fff;
   padding: 4px;
 }
 
-.product-info {
-  max-width: 500px;
-}
-
-.product-info h2 {
-  font-size: 1.8rem;
-  margin-bottom: 10px;
+.item h3 {
+  font-size: 1.1rem;
+  margin: 12px 0 8px;
   color: #fff;
 }
 
 .price {
-  font-size: 1.3rem;
   color: #FFA500;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
-.installment {
-  font-size: 0.9rem;
-  color: #ccc;
-  margin-bottom: 20px;
-}
-
-.cart-buttons {
-  display: flex;
-  gap: 10px;
-  margin-bottom: 20px;
-}
-
-.cart-buttons button {
-  padding: 12px 16px;
-  font-weight: bold;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-.add-cart {
-  background-color: red;
-  color: white;
-}
-
-.shop-pay {
-  background-color: #6957F9;
-  color: white;
-}
-
-.icons {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 15px;
-  font-size: 0.9rem;
-  margin: 20px 0;
-}
-
-.description {
-  margin: 20px 0;
-  line-height: 1.5;
-}
-
-.ingredients {
-  color: #fff;
-  font-weight: bold;
+.btn {
+  display: inline-block;
   margin-top: 10px;
-}
-
-.size {
-  margin-top: 10px;
-  font-style: italic;
-}
-
-.social {
-  margin-top: 20px;
-  font-size: 1.2rem;
+  padding: 10px 16px;
+  background-color: #FFA500;
+  color: #111;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
 }
